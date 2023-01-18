@@ -14,6 +14,6 @@ this.length = verifyValue(length);    this.width = verifyValue(width);    }
     return "Length of Rectangle: " + fmt.format(length) + "\nWidth of Rectangle: " +
                 fmt.format(width);    }
     private double verifyValue(double value) {
- if (value < 0) {  throw new IllegalArgumentException("Argument is negative."); }
- else if (value > 20) {throw new IllegalArgumentException("Argument is greater than 20.");      }       
+ if (value < 0) {  throw new IllegalArgumentException("Argument is NEGATIVE."); }
+ else if (value > 20) {throw new IllegalArgumentException("Argument is Greater than 20.");      }       
  else return value;    }}
